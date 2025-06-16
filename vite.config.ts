@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
+// заміни 'goit-typescript-hw-01' на назву твоєї GitHub-репозиторії
 export default defineConfig({
-  plugins: [react()],
-})
+  base: '/goit-typescript-hw-01/',
+});
